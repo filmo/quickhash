@@ -38,7 +38,8 @@ class quickHash {
 	}
 	
 	/**	set_path
-	*	For setting a new file reusing the same object.
+	*	Set the file path. Must be set prior to hashing. Is considered unset after a
+	*	hash is generated. Must be reset for each subsequent file. 
 	*	@param	string		path to file
 	*/
 	public function set_path($file_path) {
